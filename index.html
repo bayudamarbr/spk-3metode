@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SPK - Pemilihan Website Booking Tiket</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><span>SPK | Pemilihan Website Booking Tiket</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      <nav id="navbar" class="navbar">
+        
+    
+        <ul>
+       
+        <ul class="navbar">   
+          <li><a class="nav-link scrollto" href="#about">Metode SAW</a></li>
+          <li><a class="nav-link scrollto" href="#features">Metode WP</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Metode TOPSIS</a></li>
+          <li><hr class="dropdown-divider"></li>
+          </ul> </ul>
+
+          
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Sistem Pendukung Keputusan Pemilihan Website Booking Tiket</h1>
+            <h2>Metode Simple Additive Weighting (SAW), Weighting Product(WP), Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS) </h2>
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto">Mulai Perhitungan</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/Vacation.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Metode SAW</h2>
+          <p>METODE SIMPLE ADDITIVE WEIGHTING</p>
+        </div>
+        <div>
+          <div class="section-title">
+          <h1>Input Nilai Kriteria Pada Setiap Alternatif</h1>
+          </div>
+          <table id="matriksInput">
+            <tr>
+              <th>Data</th>
+              <th>Kelengkapan Fitur</th>
+              <th>Metode Pembayaran</th>
+              <th>Kode Promo</th>
+              <th>Tampilan</th>
+              <th>Harga Tiket</th>
+            </tr>
+            <tr>
+              <th contenteditable="true">Traveloka</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Agoda</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Tiket.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">PegiPegi</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Booking.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+          </table>
+
+          <button onclick="hitungSAW()">Hitung</button>
+
+          <br /><br />
+        
+          <div class="section-title">
+          <h1>Hasil</h1> </div>
+          <table id="hasilTable">
+            <tr>
+              <th>Alternatif</th>
+              <th>Nilai</th>
+              <th>Peringkat</th>
+            </tr>
+          </table>
+
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            <a href="https://youtu.be/Xs-eSnJWUg8" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <h3>Pemilihan Website Booking Tiket Dengan Metode SAW</h3>
+            <p>Metode simple additive wighting melakukan penjumlahan terbobot semua atribut di setiap alternatif.</p>
+
+            <div>
+              <h3 class="has-text-color" style="color:#1f7919">(+) Kelebihan</h3>
+              <p class="description">1. Hasil penilaian dirasa lebih tepat, dikarenakan berdasarkan pada nilai kriteria dan botot prefensi yang telah ditentukan.</p>
+              <p class="description">2. Memiliki proses yang sederhana. </p>
+              <p class="description">3. Menentukan nilai bobot dan meranking alternatif. </p>
+            </div>
+
+            <div>
+              <h3 class="has-text-color" style="color:#cc433e">(-) Kekurangan</h3>
+              <p class="description">1. Perhitungan dilakukan dengaan bilangan crisp atau fuzzy. </p>
+              <p class="description">2. Metode ini biasanya digunakan pada pembobotan lokal.</p>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <script>
+        function hitungSAW() {
+  // Mengambil nilai matriks dari input HTML
+  var matriksInput = document.getElementById("matriksInput");
+  var rows = matriksInput.getElementsByTagName("tr");
+  
+  var matriks = [];
+  
+  for (var i = 1; i < rows.length; i++) {
+    var cells = rows[i].getElementsByTagName("td");
+    var rowData = [];
+    
+    for (var j = 0; j < cells.length; j++) {
+      rowData.push(parseFloat(cells[j].getElementsByTagName("input")[0].value));
+    }
+    
+    matriks.push(rowData);
+  }
+  
+  // Menghitung total nilai pada matriks
+  var totalNilai = matriks[0].map(function() { return 0; });
+  
+  for (var i = 0; i < matriks.length; i++) {
+    for (var j = 0; j < matriks[i].length; j++) {
+      totalNilai[j] += matriks[i][j];
+    }
+  }
+  
+  // Menghitung nilai normalisasi
+  var normalisasi = [];
+  
+  for (var i = 0; i < matriks.length; i++) {
+    var nilaiNormalisasi = [];
+    
+    for (var j = 0; j < matriks[i].length; j++) {
+      nilaiNormalisasi.push(matriks[i][j] / totalNilai[j]);
+    }
+    
+    normalisasi.push(nilaiNormalisasi);
+  }
+  
+  // Menentukan bobot kriteria
+  var bobot = [0.15, 0.25, 0.1, 0.25, 0.25];
+  
+  // Menghitung nilai terbobot
+  var terbobot = [];
+  
+  for (var i = 0; i < normalisasi.length; i++) {
+    var nilaiTerbobot = [];
+    
+    for (var j = 0; j < normalisasi[i].length; j++) {
+      nilaiTerbobot.push(normalisasi[i][j] * bobot[j]);
+    }
+    
+    terbobot.push(nilaiTerbobot);
+  }
+  
+  // Menghitung nilai total terbobot
+  var totalTerbobot = terbobot.map(function() { return 0; });
+  
+  for (var i = 0; i < terbobot.length; i++) {
+    for (var j = 0; j < terbobot[i].length; j++) {
+      totalTerbobot[i] += terbobot[i][j];
+    }
+  }
+  
+  // Menentukan peringkat alternatif berdasarkan nilai total terbobot
+  var peringkat = totalTerbobot.slice(0);
+  peringkat.sort(function(a, b) {
+    return b - a;
+  });
+  
+  // Menampilkan hasil dalam tabel
+  var hasilTable = document.getElementById("hasilTable");
+  hasilTable.innerHTML = "";
+  
+  var headerRow = document.createElement("tr");
+  var headerCell1 = document.createElement("th");
+  headerCell1.textContent = "Alternatif";
+  headerRow.appendChild(headerCell1);
+  
+  var headerCell2 = document.createElement("th");
+  headerCell2.textContent = "Nilai";
+  headerRow.appendChild(headerCell2);
+  
+  var headerCell3 = document.createElement("th");
+  headerCell3.textContent = "Peringkat";
+  headerRow.appendChild(headerCell3);
+  
+  hasilTable.appendChild(headerRow);
+  
+  for (var i = 0; i < peringkat.length; i++) {
+    var alternatif = "Alternatif " + (totalTerbobot.indexOf(peringkat[i]) + 1);
+    var nilai = totalTerbobot[i];
+    var peringkatText = i + 1;
+    
+    var dataRow = document.createElement("tr");
+    
+    var dataCell1 = document.createElement("td");
+    dataCell1.textContent = alternatif;
+    dataRow.appendChild(dataCell1);
+    
+    var dataCell2 = document.createElement("td");
+    dataCell2.textContent = nilai.toFixed(2);
+    dataRow.appendChild(dataCell2);
+    
+    var dataCell3 = document.createElement("td");
+    dataCell3.textContent = peringkatText;
+    dataRow.appendChild(dataCell3);
+    
+    hasilTable.appendChild(dataRow);
+  }
+}
+
+</script>
+</section>
+        
+
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Metode WP</h2>
+          <p>METODE WEIGHTED PRODUCT</p>
+        </div>
+
+        <div>
+      
+        <div class="section-title">
+        <h1>Input Nilai Bobot dan Kriteria</h1>
+        </div>
+        <div>
+          <table id="matriksInput2">
+            <tr>
+              <th>Data</th>
+              <th>Kelengkapan Fitur</th>
+              <th>Metode Pembayaran</th>
+              <th>Kode Promo</th>
+              <th>Tampilan</th>
+              <th>Harga Tiket</th>
+            </tr>
+            <tr>
+              <th  contenteditable="true">Traveloka</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Agoda</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Tiket.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">PegiPegi</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Booking.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <button onclick="hitungWP()">Hitung</button>
+        <br /><br />
+        <div class="section-title">
+          <h1>Hasil</h1> </div>
+          <div>
+            <table id="hasilTable2">
+              <tr>
+                <th>Alternatif</th>
+                <th>Nilai</th>
+                <th>Peringkat</th>
+              </tr>
+            </table>
+        </div>
+        
+
+
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            <a href="https://youtu.be/C3Bfz1SfCVw" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <div class="section-title">
+            <p>Pemilihan Website Booking Tiket Dengan Metode WP</p></div>
+            <p>Weight product atau dikenal juga dengan WP adalah salah satu metode dalam sistem pendukung keputusan (SPK). Metode ini masuk ke dalam kategori Fuzzy Multiple Attribute Decision Making (FMADM).</p>
+
+            <div>
+              <h3 class="has-text-color" style="color:#1f7919">(+) Kelebihan</h3>
+              <p class="description">1. Dapat menentukan solusi terbaik dari beberapa alternatif dengan menggunakan kriteria yang ditentukan.</p>
+              <p class="description">2. Dapat menangani kriteria yang tidak sama dengan menentukan bobot relatif dari setiap kriteria. </p>
+              <p class="description">3. Dapat menangani kriteria yang positif dan negatif dengan menentukan skor preferensi untuk setiap alternatif. </p>
+            </div>
+
+            <div>
+              <h3 class="has-text-color" style="color:#cc433e">(-) Kekurangan</h3>
+              <p class="description">1. Dapat menghasilkan solusi yang tidak realistis jika data yang digunakan tidak benar. </p>
+              <p class="description">2. Dapat menjadi kompleks dan memerlukan waktu yang cukup jika digunakan dalam kondisi yang kompleks.</p>
+              <p class="description">3. Kesalahan dalam penentuan bobot kriteria yang sesuai dapat menyebabkan hasil yang tidak sesuai.</p>
+            </div>
+
+          </div>
+          
+
+          </div>
+        </div>  
+
+
+        
+      </div>
+      <script>
+            
+
+
+        function hitungWP() {
+          // Mengambil nilai matriks dari input HTML
+          var matriksInput2 = document.getElementById("matriksInput2");
+          var rows = matriksInput2.rows;
+          var alternatif = [];
+          
+          for (var i = 1; i < rows.length; i++) {
+            var cells = rows[i].cells;
+            var nilaiKriteria = [];
+            
+            for (var j = 1; j < cells.length; j++) {
+              var input = cells[j].getElementsByTagName("input")[0];
+              nilaiKriteria.push(parseFloat(input.value));
+            }
+            
+            alternatif.push(nilaiKriteria);
+          }
+
+          var bobot = [ // Bobot untuk setiap kriteria (1-4: Benefit, 5: Cost)
+            0.15, // Bobot Kriteria 1
+            0.25, // Bobot Kriteria 2
+            0.1, // Bobot Kriteria 3
+            0.25, // Bobot Kriteria 4
+            0.25  // Bobot Kriteria 5
+          ];
+
+          // Normalisasi Matriks
+          var normalisasi = [];
+          for (var i = 0; i < alternatif.length; i++) {
+            var normalizedValues = [];
+
+            // Menghitung nilai normalisasi untuk setiap kriteria
+            for (var j = 0; j < alternatif[i].length; j++) {
+              if (j < 4) {
+                normalizedValues.push(Math.pow(alternatif[i][j], bobot[j]));
+              } else {
+                normalizedValues.push(Math.pow(alternatif[i][j], -bobot[j]));
+              }
+            }
+
+            normalisasi.push(normalizedValues);
+          }
+
+          // Menghitung nilai perkalian (Weighted Product) untuk setiap alternatif
+          var nilaiPerkalian = [];
+          for (var i = 0; i < normalisasi.length; i++) {
+            var total = 1;
+
+            for (var j = 0; j < normalisasi[i].length; j++) {
+              total *= normalisasi[i][j];
+            }
+
+            nilaiPerkalian.push(total);
+          }
+
+          // Menentukan peringkat alternatif berdasarkan nilai perkalian
+          var peringkat = nilaiPerkalian.slice(0);
+          peringkat.sort(function(a, b) {
+            return b - a;
+          });
+
+          // Menampilkan hasil dalam tabel
+          var hasilTable2 = document.getElementById("hasilTable2");
+          hasilTable2.innerHTML = "";
+          
+          var headerRow = document.createElement("tr");
+          var headerCell1 = document.createElement("th");
+          headerCell1.textContent = "Alternatif";
+          headerRow.appendChild(headerCell1);
+          
+          var headerCell2 = document.createElement("th");
+          headerCell2.textContent = "Nilai";
+          headerRow.appendChild(headerCell2);
+          
+          var headerCell3 = document.createElement("th");
+          headerCell3.textContent = "Peringkat";
+          headerRow.appendChild(headerCell3);
+          
+          hasilTable2.appendChild(headerRow);
+          
+          for (var i = 0; i < alternatif.length; i++) {
+            var row = document.createElement("tr");
+            
+            var alternatifCell = document.createElement("td");
+            alternatifCell.textContent = "Alternatif " + (i+1);
+            row.appendChild(alternatifCell);
+            
+            var nilaiCell = document.createElement("td");
+            nilaiCell.textContent = nilaiPerkalian[i].toFixed(2);
+            row.appendChild(nilaiCell);
+            
+            var peringkatCell = document.createElement("td");
+            peringkatCell.textContent = peringkat.indexOf(nilaiPerkalian[i]) + 1;
+            row.appendChild(peringkatCell);
+            
+            hasilTable2.appendChild(row);
+          }
+        }
+
+
+
+</script>
+</section>
+
+ 
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>METODE TOPSIS</h2>
+          <p>METODE TECHNIQUE FOR ORDER PREFERENCE BY SIMILARITY TO IDEAL SOLUTION</p>
+        </div>
+
+        <div class="section-title">
+          <h1>Input Nilai Bobot dan Kriteria</h1>
+          <br>
+
+          <table id="matriksInput3">
+            <tr>
+              <th>Data</th>
+              <th>Kelengkapan Fitur</th>
+              <th>Metode Pembayaran</th>
+              <th>Kode Promo</th>
+              <th>Tampilan</th>
+              <th>Harga Tiket</th>
+            </tr>
+            <tr>
+              <th contenteditable="true">Traveloka</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Agoda</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Tiket.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">PegiPegi</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+            <tr>
+              <th contenteditable="true">Booking.com</th>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+              <td><input type="number" step="0.01"></td>
+            </tr>
+          </table>
+
+        </div>
+        <div>
+
+        
+          <br>
+        
+          <button onclick="hitungTOPSIS()">Hitung</button>
+
+        
+          <br><br>
+          <div class="section-title">
+            <h1>Hasil</h1> </div>
+
+          <div>
+
+                <table id="hasilTable3">
+                  <tr>
+                    <th>Alternatif</th>
+                    <th>Nilai</th>
+                    <th>Peringkat</th>
+                  </tr>
+                </table>
+
+          </div>
+        
+
+        
+          <script>
+                 function hitungTOPSIS() {
+                                        // Mengambil nilai matriks dari input HTML
+                                        var matriksInput3 = document.getElementById("matriksInput3");
+                                        var rows = matriksInput3.rows;
+                                        var alternatif = [];
+                                        
+                                        for (var i = 1; i < rows.length; i++) {
+                                          var cells = rows[i].cells;
+                                          var nilaiKriteria = [];
+                                          
+                                          for (var j = 1; j < cells.length; j++) {
+                                            var input = cells[j].getElementsByTagName("input")[0];
+                                            nilaiKriteria.push(parseFloat(input.value));
+                                          }
+                                          
+                                          alternatif.push(nilaiKriteria);
+                                        }
+
+                                        var bobot = [ // Bobot untuk setiap kriteria (1-4: Benefit, 5: Cost)
+                                          0.15, // Bobot Kriteria 1
+                                          0.25, // Bobot Kriteria 2
+                                          0.1, // Bobot Kriteria 3
+                                          0.25, // Bobot Kriteria 4
+                                          0.25  // Bobot Kriteria 5
+                                        ];
+
+                                        var minMax = [ // 1: Benefit, -1: Cost
+                                          1, // Kriteria 1
+                                          1, // Kriteria 2
+                                          1, // Kriteria 3
+                                          1, // Kriteria 4
+                                          -1 // Kriteria 5
+                                        ];
+
+                                        // Normalisasi Matriks
+                                        var normalisasi = [];
+                                        for (var i = 0; i < alternatif.length; i++) {
+                                          var normalizedValues = [];
+
+                                          // Menghitung nilai normalisasi untuk setiap kriteria
+                                          for (var j = 0; j < alternatif[i].length; j++) {
+                                            normalizedValues.push(alternatif[i][j] / (Math.max(...alternatif.map((_, idx) => alternatif[idx][j]))));
+                                          }
+
+                                          normalisasi.push(normalizedValues);
+                                        }
+
+                                        // Menghitung Matriks Ternormalisasi Terbobot
+                                        var ternormalisasiTerbobot = [];
+                                        for (var i = 0; i < normalisasi.length; i++) {
+                                          var weightedValues = [];
+
+                                          // Menghitung nilai terbobot untuk setiap kriteria
+                                          for (var j = 0; j < normalisasi[i].length; j++) {
+                                            weightedValues.push(normalisasi[i][j] * bobot[j]);
+                                          }
+
+                                          ternormalisasiTerbobot.push(weightedValues);
+                                        }
+
+                                        // Menghitung Solusi Ideal Positif (A+) dan Solusi Ideal Negatif (A-)
+                                        var aPositif = [];
+                                        var aNegatif = [];
+                                        for (var i = 0; i < ternormalisasiTerbobot[0].length; i++) {
+                                          var colValues = ternormalisasiTerbobot.map((_, idx) => ternormalisasiTerbobot[idx][i]);
+                                          if (minMax[i] === 1) {
+                                            aPositif.push(Math.max(...colValues));
+                                            aNegatif.push(Math.min(...colValues));
+                                          } else {
+                                            aPositif.push(Math.min(...colValues));
+                                            aNegatif.push(Math.max(...colValues));
+                                          }
+                                        }
+
+                                        // Menghitung Jarak Alternatif dari Solusi Ideal Positif (D+) dan Solusi Ideal Negatif (D-)
+                                        var dPositif = [];
+                                        var dNegatif = [];
+                                        for (var i = 0; i < ternormalisasiTerbobot.length; i++) {
+                                          var posDistance = 0;
+                                          var negDistance = 0;
+
+                                          for (var j = 0; j < ternormalisasiTerbobot[i].length; j++) {
+                                            posDistance += Math.pow(ternormalisasiTerbobot[i][j] - aPositif[j], 2);
+                                            negDistance += Math.pow(ternormalisasiTerbobot[i][j] - aNegatif[j], 2);
+                                          }
+
+                                          dPositif.push(Math.sqrt(posDistance));
+                                          dNegatif.push(Math.sqrt(negDistance));
+                                        }
+
+                                        // Menghitung Nilai Preferensi (V)
+                                        var v = [];
+                                        for (var i = 0; i < dPositif.length; i++) {
+                                          v.push(dNegatif[i] / (dPositif[i] + dNegatif[i]));
+                                        }
+
+                                        // Menentukan peringkat alternatif berdasarkan nilai preferensi (V)
+                                        var peringkat = v.slice(0);
+                                        peringkat.sort(function(a, b) {
+                                          return b - a;
+                                        });
+
+                                        // Menampilkan hasil dalam tabel
+                                        var hasilTable3 = document.getElementById("hasilTable3");
+                                        hasilTable3.innerHTML = "";
+                                        
+                                        var headerRow = document.createElement("tr");
+                                        var headerCell1 = document.createElement("th");
+                                        headerCell1.textContent = "Alternatif";
+                                        headerRow.appendChild(headerCell1);
+                                        
+                                        var headerCell2 = document.createElement("th");
+                                        headerCell2.textContent = "Nilai";
+                                        headerRow.appendChild(headerCell2);
+                                        
+                                        var headerCell3 = document.createElement("th");
+                                        headerCell3.textContent = "Peringkat";
+                                        headerRow.appendChild(headerCell3);
+                                        
+                                        hasilTable3.appendChild(headerRow);
+                                        
+                                        for (var i = 0; i < alternatif.length; i++) {
+                                          var row = document.createElement("tr");
+                                          
+                                          var alternatifCell = document.createElement("td");
+                                          alternatifCell.textContent = "Alternatif " + (i+1);
+                                          row.appendChild(alternatifCell);
+                                          
+                                          var nilaiCell = document.createElement("td");
+                                          nilaiCell.textContent = v[i].toFixed(2);
+                                          row.appendChild(nilaiCell);
+                                          
+                                          var peringkatCell = document.createElement("td");
+                                          peringkatCell.textContent = peringkat.indexOf(v[i]) + 1;
+                                          row.appendChild(peringkatCell);
+                                          
+                                          hasilTable3.appendChild(row);
+                                        }
+                                      }
+ 
+        </script>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            <a href="https://youtu.be/Bkbt21E5o04" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <div class="section-title">
+            <p>Pemilihan Website Booking Tiket Dengan Metode TOPSIS</p></div>
+            <p>Metode TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) adalah sebuah teknik yang digunakan dalam Sistem Pendukung Keputusan (SPK) untuk mencari solusi terbaik dari berbagai alternatif dengan menggunakan kriteria yang telah ditentukan. </p>
+
+            <div>
+              <h3 class="has-text-color" style="color:#1f7919">(+) Kelebihan</h3>
+              <p class="description">1. Dapat menangani kriteria yang tidak sama dengan cara normalisasi data.</p>
+              <p class="description">2. Dapat menangani kriteria yang positif dan negatif dengan menentukan solusi ideal positif dan solusi ideal negatif. </p>
+              <p class="description">3. Dapat menghasilkan solusi yang bersifat objektif dan tidak terpengaruh oleh subjektivitas. </p>
+            </div>
+
+            <div>
+              <h3 class="has-text-color" style="color:#cc433e">(-) Kekurangan</h3>
+              <p class="description">1. Memerlukan data yang cukup dan akurat untuk melakukan normalisasi data. </p>
+              <p class="description">2. Tergantung pada asumsi yang digunakan dalam menentukan solusi ideal positif dan solusi ideal negatif.</p>
+              <p class="description">3. Dapat menghasilkan solusi yang tidak realistis jika data yang digunakan tidak benar.</p>
+            </div>
+
+          </div>
+          
+
+          </div>
+
+       
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+   
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Our Great Team</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/bayu.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Bayu Damar Breh Pambudi</h4>
+                <span>Back-end Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/ichi.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ichrima Aura Qoshirotu Thorfi</h4>
+                <span>Front-end Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/iyan.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Berlian Damai Islami</h4>
+                <span>Back-end Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/awa.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Aura Isni Qurrota'ayun</h4>
+                <span>Front-end Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>SPK</h3>
+              <p class="pb-3"><em>Sistem Pendukung Keputusan Pemilihan Website Booking Tiket</em></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Metode SAW</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#features">Metode WP</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Metode TOPSIS</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-8 footer-links">
+            <h4>Our Great Team</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Bayu Damar Breh Pambudi_4612421022</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Ichrima Aura Qoshirotu Thorfi_4612421043</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Berlian Damai Islami_4612421046</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Aura Isni Qurrota'ayun_4612421049</a></li>
+            </ul>
+          </div>
+
+        
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
